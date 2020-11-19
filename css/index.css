@@ -1,0 +1,152 @@
+/* 簡介 1 */
+
+.index-1-box {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.index-1-inner-box {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #E06941;
+	padding: 20px 0px;
+}
+
+.index-1-text-box {
+	width: 45%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.index-1-text {
+	width: 120px;
+	margin: 0px 10px;
+}
+
+.index-1-img-box {
+	width: 50%;
+	text-align: center;
+}
+
+.index-1-img {
+	width: auto;
+	height: 400px;
+	border-radius: 8px;
+}
+
+/* 簡介 2 */
+
+.index-2-box {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.index-2-inner-box {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #E06941;
+	padding: 20px 0px;
+}
+
+.index-2-img-box {
+	width: 50%;
+	text-align: center;
+}
+
+.index-2-img {
+	width: auto;
+	height: 400px;
+	border-radius: 8px;
+}
+
+.index-2-text-box {
+	width: 45%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.index-2-text {
+	font-size: 22px;
+	margin: 0px 10px;
+	padding: 8px;
+	height: 300px;
+	overflow: scroll;
+}
+
+/* 年表 */
+
+.index-3-box {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.index-3-inner-box {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #E06941;
+	padding: 20px 0px;
+}
+
+.index-3-text-box {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.index-3-head {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.index-3-calendar {
+	width: 80%;
+	height: 300px;
+	border-left: 8px solid #F7F3DC;
+	padding-left: 40px;
+	display: flex;
+	overflow: scroll;
+}
+
+.index-3-inner-box {
+	padding: 16px;
+}
+
+.index-3-text {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.index-3-text-head {
+	font-size: 36px;
+	margin-right: 20px;
+}
+
+.index-3-text-sub {
+	font-size: 22px;
+	margin-top: 9px;
+}
+
+.index-3-text-indent {
+	margin-left: 28px;
+}
+
+.index-3-text-line {
+	width: 3px;
+	height: 30px;
+	margin: auto;
+	background-color: white;
+}

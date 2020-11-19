@@ -1,0 +1,53 @@
+.contact-us {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-us-box {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #E06941;
+	padding: 20px 0px;
+}
+
+.contact-left {
+	width: 50%;
+	text-align: center;
+}
+
+.contact-social {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.contact-social-icon {
+	width: 40px;
+	height: 40px;
+	margin: 0px 10px 10px;
+	cursor: pointer;
+}
+
+.contact-head {
+	margin-bottom: 6px;
+}
+
+.contact-sub {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.contact-text {
+	margin-bottom: 6px;
+}
+
+.contact-right {
+	width: 40%;
+}
+
+.map {
+
+}

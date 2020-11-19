@@ -7,10 +7,11 @@
 
 .group-inner-box {
 	width: 100%;
-	height: 400px;
+	height: 370px;
 	background-color: #E06941;
-	padding: 20px 0px 0px;
+	padding: 70px 0px 0px;
 	overflow: scroll;
+	z-index: 1;
 }
 
 .group-1-img-box {
@@ -22,9 +23,11 @@
 
 .group-1-img {
 	width: auto;
-	height: 400px;
+	height: 300px;
 	border-radius: 8px;
 }
+
+/* 團員們 */
 
 .group-2-box {
 	display: flex;
@@ -37,6 +40,7 @@
 	width: 300px;
 	height: auto;
 	margin: 0px 12px 80px;
+	z-index: 0;
 }
 
 .group-2-no-margin-bottom {
@@ -50,6 +54,7 @@
 	margin-bottom: 10px;
 	filter: grayscale(1);
 	cursor: pointer;
+	z-index: 0;
 }
 
 .group-2-img:hover {
@@ -60,13 +65,63 @@
 	text-align: center;
 }
 
+/* 團員 popup */
 
+.group-popup {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100vw;
+	height: 100vh;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.4);
+}
 
+.group-popup-inner {
+	width: 90%;
+	height: 86%;
+	padding: 10px 40px;
+	background-color: #326394;
+}
 
+.group-popup-close-box {
+	width: 100%;
+	text-align: right;
+}
 
+.group-popup-close {
+	width: 65px;
+	height: 65px;
+	cursor: pointer;
+}
 
+.group-popup-box {
+	height: 65vh;
+	display: flex;
+	justify-content: center;
+	overflow-y: scroll;
+}
 
+.group-popup-left {
+	width: 260px;
+}
 
+.group-popup-img {
+	width: 220px;
+	margin-bottom: 20px;
+}
 
+.group-popup-right {
+	margin-left: 60px;
+}
 
+.group-popup-head {
+	margin-bottom: 30px;
+}
 
+.group-popup-experience {
+	font-size: 26px;
+	margin-bottom: 10px;
+}

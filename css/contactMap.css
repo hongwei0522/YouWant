@@ -31,6 +31,10 @@
 	cursor: pointer;
 }
 
+.contact-social-icon:hover {
+	opacity: 0.8;
+}
+
 .contact-head {
 	margin-bottom: 6px;
 }

@@ -33,3 +33,27 @@ open3.addEventListener('click', function(){
 close3.addEventListener('click', function(){
     popup3.style.display = 'none';
 })
+
+var open4 = document.getElementById("open4");
+var popup4 = document.getElementById("popup4");
+var close4 = document.getElementById("close4");
+
+open4.addEventListener('click', function(){
+    popup4.style.display = 'flex';
+})
+
+close4.addEventListener('click', function(){
+    popup4.style.display = 'none';
+})
+
+var open5 = document.getElementById("open5");
+var popup5 = document.getElementById("popup5");
+var close5 = document.getElementById("close5");
+
+open5.addEventListener('click', function(){
+    popup5.style.display = 'flex';
+})
+
+close5.addEventListener('click', function(){
+    popup5.style.display = 'none';
+})

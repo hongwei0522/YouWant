@@ -129,8 +129,6 @@
 
 .act-popup-body {
 	height: 65vh;
-	display: flex;
-	flex-direction: column;
 	overflow-y: scroll;
 }
 

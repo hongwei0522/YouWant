@@ -545,7 +545,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
-	var swiper6 = new Swiper('.swiper-container5', {
+	var swiper6 = new Swiper('.swiper-container6', {
 		loop: true,
 		lazy: true,
 		autoplay: 1000,
@@ -553,10 +553,10 @@ $(document).ready(function(){
 	});
 
 
-	var fullBox6 = document.getElementById("fullBox5");
-	var leftArrow6 = document.getElementById("leftArrow5");
-	var rightArrow6 = document.getElementById("rightArrow5");
-	var swiperContainer6 = document.getElementById('swiperContainer5');
+	var fullBox6 = document.getElementById("fullBox6");
+	var leftArrow6 = document.getElementById("leftArrow6");
+	var rightArrow6 = document.getElementById("rightArrow6");
+	var swiperContainer6 = document.getElementById('swiperContainer6');
 	var bg61 = document.getElementById("bg61");
 	var bg62 = document.getElementById("bg62");
 	var bg63 = document.getElementById("bg63");
@@ -574,7 +574,7 @@ $(document).ready(function(){
     var bg615 = document.getElementById("bg615");
 	
 
-	fullBox.addEventListener('click', function(){
+	fullBox6.addEventListener('click', function(){
 			$(fullBox6).css('visibility', 'hidden');
 	})
 

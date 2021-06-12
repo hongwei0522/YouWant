@@ -132,11 +132,11 @@
 .act-popup-header {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 30px;
+	margin: 10px 0px 30px;
 }
 
 .act-popup-text-box {
-
+	margin-top: 10px;
 }
 
 .act-popup-text-head {
@@ -145,7 +145,7 @@
 
 .act-popup-body-head-2 {
 	font-size: 30px;
-	margin: 20px 0px 20px 30px;
+	margin: 40px 0px 20px 30px;
 }
 
 .act-popup-text-sub {
@@ -190,7 +190,7 @@
 }
 
 .act-popup-right {
-
+	margin: 0px 30px;
 }
 
 .act-popup-right-text {
@@ -205,7 +205,8 @@
 
 .act-popup-iframe-box {
 	width: 100%;
-	height: 400px;
+	height: auto;
+	margin-bottom: 40px;
 	text-align: center;
 }
 

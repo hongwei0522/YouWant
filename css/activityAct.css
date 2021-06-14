@@ -168,7 +168,6 @@
 
 .act-popup-one {
 	display: flex;
-	justify-content: center;
 }
 
 .act-popup-left {
@@ -176,7 +175,7 @@
 }
 
 .act-popup-main-img {
-	width: 300px;
+	width: 376px;
 	height: auto;
 }
 
@@ -197,6 +196,14 @@
 	line-height: 32px;
 }
 
+.act-popup-right-text-column {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.act-popup-right-text-column div {
+	margin-right: 50px;
+}
 
 
 .act-popup-two {
@@ -211,20 +218,23 @@
 }
 
 .act-popup-three {
+	max-width: 1024px;
+	margin: 40px auto 0px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
 }
 
 .act-popup-three-img {
-	width: 240px;
-	height: 180px;
+	width: 300px;
+	height: 220px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-x: center;
 	background-position-y: center;
 	border-radius: 8px;
-	margin: 0px 10px 20px;
+	margin: 0px 14px 20px;
 	cursor: pointer;
 }
 

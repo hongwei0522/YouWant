@@ -75,6 +75,12 @@ $(document).ready(function(){
 	var bg15 = document.getElementById("bg15");
 	var bg16 = document.getElementById("bg16");
 	var bg17 = document.getElementById("bg17");
+	var bg18 = document.getElementById("bg18");
+	var bg19 = document.getElementById("bg19");
+	var bg110 = document.getElementById("bg110");
+	var bg111 = document.getElementById("bg111");
+	var bg112 = document.getElementById("bg112");
+	var bg113 = document.getElementById("bg113");
 	
 
 	fullBox1.addEventListener('click', function(){
@@ -129,6 +135,36 @@ $(document).ready(function(){
 	bg17.addEventListener('click', function(){
 		$(fullBox1).css('visibility', 'visible');
 		swiper1.slideTo(7);
+	})
+
+	bg18.addEventListener('click', function(){
+		$(fullBox1).css('visibility', 'visible');
+		swiper1.slideTo(8);
+	})
+
+	bg19.addEventListener('click', function(){
+		$(fullBox1).css('visibility', 'visible');
+		swiper1.slideTo(9);
+	})
+
+	bg110.addEventListener('click', function(){
+		$(fullBox1).css('visibility', 'visible');
+		swiper1.slideTo(10);
+	})
+
+	bg111.addEventListener('click', function(){
+		$(fullBox1).css('visibility', 'visible');
+		swiper1.slideTo(11);
+	})
+
+	bg112.addEventListener('click', function(){
+		$(fullBox1).css('visibility', 'visible');
+		swiper1.slideTo(12);
+	})
+
+	bg113.addEventListener('click', function(){
+		$(fullBox1).css('visibility', 'visible');
+		swiper1.slideTo(13);
 	})
 
 

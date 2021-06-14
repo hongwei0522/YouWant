@@ -43,7 +43,7 @@ $(document).ready(function(){
 	var bg114 = document.getElementById("bg114");
 	var bg115 = document.getElementById("bg115");
 	var bg116 = document.getElementById("bg116");
-	var bg117 = document.getElementById("bg117");
+	// var bg117 = document.getElementById("bg117");
 	
 
 	fullBox1.addEventListener('click', function(){
@@ -145,9 +145,9 @@ $(document).ready(function(){
             swiper1.slideTo(16);
     })
 
-    bg117.addEventListener('click', function(){
-        $(fullBox1).css('visibility', 'visible');
-        swiper1.slideTo(17);
-    })
+    // bg117.addEventListener('click', function(){
+    //     $(fullBox1).css('visibility', 'visible');
+    //     swiper1.slideTo(17);
+    // })
 
 })

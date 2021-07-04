@@ -12,12 +12,12 @@ headerClose.addEventListener('click', function(){
 
 const watcher = new IntersectionObserver(onEnterView)
 const lazyImages = document.querySelectorAll('img.lazy')
-for (let image of lazyImages) {
+for (var image of lazyImages) {
     watcher.observe(image) // 開始監視
 }
 
 function onEnterView(entries, observer) {
-  for (let entry of entries) {
+  for (var entry of entries) {
       if (entry.isIntersecting) {
           // 監視目標進入畫面
           const img = entry.target

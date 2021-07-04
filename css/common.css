@@ -58,6 +58,14 @@ h4 {
 	font-weight: 400;
 }
 
+img {
+	color: transparent;
+}
+
+img:not([src]) {
+	visibility: hidden;
+}
+
 .header-box {
 	position: fixed;
 	left: 0px;

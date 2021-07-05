@@ -155,55 +155,69 @@
 	}
 
 	.index-1-inner-box {
-
+		height: 75vh;
 	}
 
 	.index-1-inside-box {
-
+		flex-direction: column;
+		margin: 0px 0px 20px;
 	}
 
 	.index-1-text-box {
-
+		width: 100%;
+		flex-direction: column;
 	}
 
 	.index-1-text {
-
+		width: 100%;
 	}
 
 	.index-1-img-box {
-
+		width: 100%;
+		margin-top: 20px;
 	}
 
 	.index-1-img {
-
+		max-width: 600px;
+		width: calc(100% - 50px);
+		height: auto;
 	}
 
 	/* 簡介 2 */
 
 	.index-2-inner-box {
-
+		flex-direction: column-reverse;
+		margin-bottom: 20px;
+		padding: 0px 0px;
 	}
 
 	.index-2-img-box {
-
+		width: 100%;
+		margin-top: 20px;
 	}
 
 	.index-2-img {
-
+		max-width: 600px;
+		width: calc(100% - 50px);
+		height: auto;
 	}
 
 	.index-2-text-box {
-
+		width: calc(100% - 50px);
 	}
 
 	.index-2-text {
-
+		height: auto;
+		margin: 0px;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 1px;
 	}
 
 	/* 年表 */
 
 	.index-3-inner-box {
-
+		padding: 0px 0px;
 	}
 
 	.index-3-text-box {
@@ -223,23 +237,31 @@
 	}
 
 	.index-3-text {
-
+		flex-direction: column;
 	}
 
 	.index-3-text-head {
-
+		font-size: 20px;
 	}
 
 	.index-3-text-sub {
-
+		font-size: 16px;
+		margin-top: 2px;
+		margin-left: 21px;
+		text-indent: -22px;
+		letter-spacing: 1px;
 	}
 
 	.index-3-text-indent {
-
+		margin-left: 0px;
+    	text-indent: 0px;
+		line-height: 1.5;
+		letter-spacing: 1px;
 	}
 
 	.index-3-text-line {
-
+		height: 15px;
+		margin: 0px 0px 0px 23px;
 	}
 
 }

@@ -160,3 +160,79 @@ img:not([src]) {
 	color: #E06941;
 	font-size: 16px;
 }
+
+@media( max-width: 1023px ){
+
+	html body{
+		font-size: 16px;
+	}
+
+	a {
+
+	}
+	
+	h1 {
+		font-size: 40px;
+	}
+	
+	h3 {
+
+	}
+	
+	h4 {
+
+	}
+	
+	img {
+
+	}
+	
+	img:not([src]) {
+
+	}
+	
+	.header-box {
+		height: 60px;
+	}
+	
+	.header-logo {
+		width: 60px;
+	}
+	
+	.header-main-text {
+
+	}
+	
+	.header-menu {
+		width: 40px;
+		height: 40px;
+		margin-top: 6px;
+	}
+	
+	.header-fancy-box {
+		flex-direction: column;
+	}
+	
+	.header-close {
+		right: 12px;
+		top: 4px;
+	}
+	
+	.header-text-box {
+		width: 100%;
+		height: 25%;
+	}
+
+	.header-text {
+		line-height: 12px;
+	}
+	
+	.footer-box {
+
+	}
+	
+	.footer-text {
+		font-size: 14px;
+	}
+
+}

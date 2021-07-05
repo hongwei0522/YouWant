@@ -53,3 +53,39 @@
 	height: 340px;
 	border-radius: 8px;
 }
+
+@media( max-width: 1023px ){
+
+	.new-box {
+		
+	}
+	
+	.new-inner-box {
+		
+	}
+	
+	.new-left {
+		
+	}
+	
+	.new-head {
+		
+	}
+	
+	.new-text-box {
+		
+	}
+	
+	.new-info {
+		
+	}
+	
+	.new-right {
+		
+	}
+	
+	.new-img {
+		
+	}
+
+}

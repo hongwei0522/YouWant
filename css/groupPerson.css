@@ -129,3 +129,89 @@
 	font-size: 26px;
 	margin-bottom: 10px;
 }
+
+@media( max-width: 1023px ){
+
+	.group-box {
+		
+	}
+	
+	.group-inner-box {
+		
+	}
+	
+	.group-1-img-box {
+		
+	}
+	
+	.group-1-img {
+		
+	}
+	
+	/* 團員們 */
+	
+	.group-2-box {
+		
+	}
+	
+	.group-2-member-box {
+		
+	}
+	
+	.group-2-img {
+		
+	}
+	
+	.group-2-title {
+		
+	}
+	
+	/* 團員 popup */
+	
+	.group-popup {
+		
+	}
+	
+	.group-popup-inner {
+		
+	}
+	
+	.group-popup-close-box {
+		
+	}
+	
+	.group-popup-close {
+		
+	}
+	
+	.group-popup-box {
+		
+	}
+	
+	.group-popup-left {
+
+		width: 282px;
+	}
+	
+	.group-popup-img {
+		
+	}
+	
+	.group-popup-right {
+		
+	}
+	
+	.group-popup-head {
+		
+	}
+	
+	.group-popup-content {
+		
+	}
+	
+	.group-popup-experience {
+		
+	}
+	
+
+}

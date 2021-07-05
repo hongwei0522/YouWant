@@ -145,3 +145,101 @@
 	margin: auto;
 	background-color: white;
 }
+
+@media( max-width: 1023px ){
+
+	/* 簡介 1 */
+
+	.index-1-box {
+
+	}
+
+	.index-1-inner-box {
+
+	}
+
+	.index-1-inside-box {
+
+	}
+
+	.index-1-text-box {
+
+	}
+
+	.index-1-text {
+
+	}
+
+	.index-1-img-box {
+
+	}
+
+	.index-1-img {
+
+	}
+
+	/* 簡介 2 */
+
+	.index-2-inner-box {
+
+	}
+
+	.index-2-img-box {
+
+	}
+
+	.index-2-img {
+
+	}
+
+	.index-2-text-box {
+
+	}
+
+	.index-2-text {
+
+	}
+
+	/* 年表 */
+
+	.index-3-inner-box {
+
+	}
+
+	.index-3-text-box {
+
+	}
+
+	.index-3-head {
+
+	}
+
+	.index-3-calendar {
+
+	}
+
+	.index-3-inner-box {
+
+	}
+
+	.index-3-text {
+
+	}
+
+	.index-3-text-head {
+
+	}
+
+	.index-3-text-sub {
+
+	}
+
+	.index-3-text-indent {
+
+	}
+
+	.index-3-text-line {
+
+	}
+
+}

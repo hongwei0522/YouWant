@@ -302,3 +302,183 @@
 	cursor: pointer;
 	z-index: 4;
 }
+
+@media( max-width: 1023px ){
+
+	.activity-act {
+		
+	}
+	
+	.act-box {
+		
+	}
+	
+	.act-box-center {
+		
+	}
+	
+	.act-left {
+		
+	}
+	
+	.act-left-text {
+		
+	}
+	
+	.act-left-line {
+		
+	}
+	
+	.act-right {
+		
+	}
+	
+	.act-item {
+		
+	}
+	
+	
+	.act-item-marginless {
+		
+	}
+	
+	.act-right-center {
+		
+	}
+	
+	.act-item-center {
+
+	}
+	
+	/* 2 */
+	.act-text {
+
+	}
+	
+	/* popup */
+	
+	.act-popup {
+
+	}
+	
+	.act-popup-box {
+
+	}
+	
+	.act-popup-header {
+
+	}
+	
+	.act-popup-text-box {
+
+	}
+	
+	.act-popup-text-head {
+
+	}
+	
+	.act-popup-body-head-2 {
+
+	}
+	
+	.act-popup-text-sub {
+
+	}
+	
+	.act-popup-close {
+
+	}
+	
+	/* body */
+	
+	.act-popup-body {
+
+	}
+	
+	.act-popup-one {
+
+	}
+	
+	.act-popup-left {
+
+	}
+	
+	.act-popup-main-img {
+
+	}
+	
+	.act-popup-left-text {
+
+	}
+	
+	.act-popup-body-head {
+
+	}
+	
+	.act-popup-right {
+
+	}
+	
+	.act-popup-right-text {
+
+	}
+	
+	.act-popup-right-text-column {
+
+	}
+	
+	.act-popup-right-text-column div {
+
+	}
+	
+	
+	.act-popup-two {
+	
+	}
+	
+	.act-popup-iframe-box {
+
+	}
+	
+	.act-popup-three {
+
+	}
+	
+	.act-popup-three-img {
+
+	}
+	
+	/* 看大圖 */
+	
+	
+	/* full img */
+	
+	.full-box{
+
+	}
+	
+	.full-box-inner {
+
+	}
+	
+	.full-inner{
+
+	}
+	
+	.full-img-box {
+
+	}
+	
+	.full-img{
+
+	}
+	
+	.full-left{
+
+	}
+	
+	.full-right{
+
+	}
+
+}

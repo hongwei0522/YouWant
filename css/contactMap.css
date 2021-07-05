@@ -7,10 +7,12 @@
 
 .contact-us-box {
 	width: 100%;
+	height: 63vh;
 	display: flex;
 	align-items: center;
 	background-color: #E06941;
 	padding: 20px 0px;
+	height: 75vh;
 }
 
 .contact-left {
@@ -60,39 +62,45 @@
 @media( max-width: 1023px ){
 
 	.contact-us {
-		
+
 	}
 	
 	.contact-us-box {
-		
+		max-height: 75vh;
+		padding: 30px 0px;
+    	flex-direction: column;
+		overflow-y: scroll;
 	}
 	
 	.contact-left {
-		
+		width: calc(100% - 50px);
 	}
 	
 	.contact-social {
-		
+		margin-bottom: 4px;
 	}
 	
 	.contact-social-icon {
-		
+		width: 50px;
+		height: 50px;
 	}
 	
 	.contact-head {
-		
+		font-size: 30px;
 	}
 	
 	.contact-sub {
-		
+		font-size: 22px;
+		margin-bottom: 20px;
 	}
 	
 	.contact-text {
-		
+		font-size: 16px;
 	}
 	
 	.contact-right {
-		
+		width: calc(100% - 50px);
+		margin-top: 20px;
 	}
 	
 	.map {

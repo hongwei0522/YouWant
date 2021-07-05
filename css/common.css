@@ -197,16 +197,19 @@ img:not([src]) {
 	
 	.header-logo {
 		width: 60px;
+		margin: 0px 0px 0px 10px;
 	}
 	
 	.header-main-text {
-
+		left: 80px;
+		top: 15px;
+		font-size: 22px;
 	}
 	
 	.header-menu {
 		width: 40px;
 		height: 40px;
-		margin-top: 6px;
+		margin: 6px 10px 0px 0px;
 	}
 	
 	.header-fancy-box {

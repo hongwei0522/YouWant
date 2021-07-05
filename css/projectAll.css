@@ -46,6 +46,10 @@
 	background-color:rgba(255, 255, 255, 0.6)
 }
 
+.project-rwd-title {
+	display: none;
+}
+
 @media( max-width: 1023px ){
 
 	.project-all {
@@ -53,18 +57,32 @@
 	}
 	
 	.project-box {
+		display: block;
+		overflow-y: scroll;
+		height: 75vh;
 	}
 	
 	.project-href {
-		
+		width: 100%;
+		margin: 0px 10px 30px 10px;
 	}
 	
 	.project-item {
-		
+		max-width: 330px;
+		width: calc(100% - 30px);
+		height: 300px;
+		margin: auto;
 	}
 	
 	.project-text {
 		
+	}
+
+	.project-rwd-title {
+		display: block;
+		text-align: center;
+		margin-top: 10px;
+		font-size: 24px;
 	}
 
 }

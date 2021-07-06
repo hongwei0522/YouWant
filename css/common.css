@@ -192,24 +192,24 @@ img:not([src]) {
 	}
 	
 	.header-box {
-		height: 60px;
+		height: calc(12.5vh - 10px);
 	}
 	
 	.header-logo {
 		width: 60px;
-		margin: 0px 0px 0px 10px;
+		margin: 4px 0px 0px 15px;
 	}
 	
 	.header-main-text {
-		left: 80px;
-		top: 15px;
+		left: 87px;
+		top: calc(7vh - 22px);
 		font-size: 22px;
 	}
 	
 	.header-menu {
 		width: 40px;
 		height: 40px;
-		margin: 6px 10px 0px 0px;
+		margin: 8px ​15px 0px 0p;
 	}
 	
 	.header-fancy-box {
@@ -231,7 +231,7 @@ img:not([src]) {
 	}
 	
 	.footer-box {
-
+		height: calc(12.5vh - 20px);
 	}
 	
 	.footer-text {

@@ -41,6 +41,14 @@
 	margin-bottom: 6px;
 }
 
+.contact-rwd-head {
+	display: none;
+}
+
+.contact-rwd-subhead {
+	display: none;
+}
+
 .contact-sub {
 	font-size: 24px;
 	margin-bottom: 30px;
@@ -74,9 +82,13 @@
 	
 	.contact-left {
 		width: calc(100% - 50px);
+		display: flex;
+    	flex-direction: column;
 	}
 	
 	.contact-social {
+		order: 2;
+		margin: 8px 0px 0px;
 		margin-bottom: 4px;
 	}
 	
@@ -86,7 +98,18 @@
 	}
 	
 	.contact-head {
+		display: none;
+	}
+	
+	.contact-rwd-head {
+		display: block;
 		font-size: 30px;
+	}
+	
+	.contact-rwd-subhead {
+		display: block;
+		font-size: 30px;
+		margin-bottom: 2px;
 	}
 	
 	.contact-sub {
@@ -100,7 +123,7 @@
 	
 	.contact-right {
 		width: calc(100% - 50px);
-		margin-top: 20px;
+		margin-top: 4px;
 	}
 	
 	.map {

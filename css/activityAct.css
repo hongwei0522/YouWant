@@ -389,7 +389,7 @@
 	
 	.act-popup-box {
 		width: 92%;
-		height: 94%;
+		height: 98%;
 		padding: 5px 24px;
 	}
 	
@@ -423,7 +423,7 @@
 	/* body */
 	
 	.act-popup-body {
-
+		height: 75vh;
 	}
 	
 	.act-popup-one {

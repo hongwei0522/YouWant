@@ -84,6 +84,7 @@
 		width: calc(100% - 50px);
 		display: flex;
     	flex-direction: column;
+		margin-top: 15px;
 	}
 	
 	.contact-social {
@@ -103,17 +104,18 @@
 	
 	.contact-rwd-head {
 		display: block;
-		font-size: 30px;
+		font-size: 26px;
+		line-height: 24px;
 	}
 	
 	.contact-rwd-subhead {
 		display: block;
-		font-size: 30px;
+		font-size: 26px;
 		margin-bottom: 2px;
 	}
 	
 	.contact-sub {
-		font-size: 22px;
+		font-size: 20px;
 		margin-bottom: 20px;
 	}
 	

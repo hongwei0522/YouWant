@@ -245,7 +245,7 @@
 
 	.index-3-text-head {
 		font-size: 20px;
-		margin-bottom: px;
+		margin-bottom: 2px;
 	}
 
 	.index-3-text-sub {
@@ -254,6 +254,10 @@
 		margin-left: 21px;
 		text-indent: -22px;
 		letter-spacing: 1px;
+	}
+
+	.index-3-text-sub div {
+		line-height: 1.5;
 	}
 
 	.index-3-text-indent {

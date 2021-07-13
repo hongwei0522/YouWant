@@ -1,9 +1,15 @@
-@font-face {
+/* @font-face {
   font-family: 'jfOpen';
   src: url('../font/jfOpen.woff') format("woff"),
     url('../font/jfOpen.ttf') format("truetype"),
     url('../font/jfOpen.otf') format("embedded-opentype");
-}
+} */
+
+@font-face {
+	font-family: 'jfOpen';
+	src: url('../font/jfOpen.ttf') format("truetype"),
+	  url('../font/jfOpen.otf') format("embedded-opentype");
+  }
 
 html body{
 	font-family: 'Noto Sans TC', 'Noto Sans SC', 'jfOpen' ,sans-serif;

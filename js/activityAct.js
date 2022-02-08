@@ -87,6 +87,32 @@ close7.addEventListener('click', function(){
     popup7.style.display = 'none';
 })
 
+var open8 = document.getElementById("open8");
+var popup8 = document.getElementById("popup8");
+var close8 = document.getElementById("close8");
+
+open8.addEventListener('click', function(){
+    popup8.style.display = 'flex';
+})
+
+close8.addEventListener('click', function(){
+    popup8.style.display = 'none';
+})
+
+
+
+var open9 = document.getElementById("open9");
+var popup9 = document.getElementById("popup9");
+var close9 = document.getElementById("close9");
+
+open9.addEventListener('click', function(){
+    popup9.style.display = 'flex';
+})
+
+close9.addEventListener('click', function(){
+    popup9.style.display = 'none';
+})
+
 
 
 
@@ -720,3 +746,196 @@ $(document).ready(function(){
 
 
 })
+
+
+
+
+
+// 看大圖 8
+
+$(document).ready(function(){
+
+	var swiper8 = new Swiper('.swiper-container8', {
+		loop: true,
+		lazy: true,
+		autoplay: 1000,
+		slidesPerView: 1
+	});
+
+
+	var fullBox8 = document.getElementById("fullBox8");
+	var leftArrow8 = document.getElementById("leftArrow8");
+	var rightArrow8 = document.getElementById("rightArrow8");
+	var swiperContainer8 = document.getElementById('swiperContainer8');
+	var bg81 = document.getElementById("bg81");
+	var bg82 = document.getElementById("bg82");
+	var bg83 = document.getElementById("bg83");
+	var bg84 = document.getElementById("bg84");
+	var bg85 = document.getElementById("bg85");
+	var bg86 = document.getElementById("bg86");
+	
+
+	fullBox8.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'hidden');
+	})
+
+	swiperContainer8.addEventListener('click', function(event){
+			// event.stopPropagation();
+	})
+
+	leftArrow8.addEventListener('click', function(event){
+		swiper8.slidePrev()
+			event.stopPropagation();
+
+	})
+
+	rightArrow8.addEventListener('click', function(event){
+		swiper8.slideNext()
+			event.stopPropagation();
+	})
+
+	bg81.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(1);
+	})
+
+	bg82.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(2);
+	})
+
+	bg83.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(3);
+	})
+
+	bg84.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(4);
+	})
+
+	bg85.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(5);
+	})
+
+	bg86.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(6);
+	})
+
+
+
+})
+
+
+
+// 看大圖 9
+
+$(document).ready(function(){
+
+	var swiper9 = new Swiper('.swiper-container9', {
+		loop: true,
+		lazy: true,
+		autoplay: 1000,
+		slidesPerView: 1
+	});
+
+
+	var fullBox9 = document.getElementById("fullBox9");
+	var leftArrow9 = document.getElementById("leftArrow9");
+	var rightArrow9 = document.getElementById("rightArrow9");
+	var swiperContainer9 = document.getElementById('swiperContainer9');
+	var bg91 = document.getElementById("bg91");
+	var bg92 = document.getElementById("bg92");
+	var bg93 = document.getElementById("bg93");
+	var bg94 = document.getElementById("bg94");
+	var bg95 = document.getElementById("bg95");
+	
+	var bg96 = document.getElementById("bg96");
+	var bg97 = document.getElementById("bg97");
+	var bg98 = document.getElementById("bg98");
+	var bg99 = document.getElementById("bg99");
+	var bg100 = document.getElementById("bg100");
+	
+	var bg101 = document.getElementById("bg101");
+	var bg102 = document.getElementById("bg102");
+	
+
+	fullBox9.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'hidden');
+	})
+
+	swiperContainer9.addEventListener('click', function(event){
+			// event.stopPropagation();
+	})
+
+	leftArrow9.addEventListener('click', function(event){
+		swiper9.slidePrev()
+			event.stopPropagation();
+
+	})
+
+	rightArrow9.addEventListener('click', function(event){
+		swiper9.slideNext()
+			event.stopPropagation();
+	})
+
+	bg91.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(1);
+	})
+
+	bg92.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(2);
+	})
+	bg93.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(3);
+	})
+	bg94.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(4);
+	})
+	bg95.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(5);
+	})
+
+	
+	bg96.addEventListener('click', function(){
+		$(fullBox9).css('visibility', 'visible');
+		swiper9.slideTo(6);
+	})
+	bg97.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(7);
+	})
+	bg98.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(8);
+	})
+	bg99.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(9);
+	})
+	bg100.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(10);
+	})
+
+
+	bg101.addEventListener('click', function(){
+		$(fullBox9).css('visibility', 'visible');
+		swiper9.slideTo(11);
+	})
+	bg102.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(12);
+	})
+
+
+
+})
+

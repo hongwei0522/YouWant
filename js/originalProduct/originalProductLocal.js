@@ -60,6 +60,18 @@ close5.addEventListener('click', function(){
     popup5.style.display = 'none';
 })
 
+var open8 = document.getElementById("open8");
+var popup8 = document.getElementById("popup8");
+var close8 = document.getElementById("close8");
+
+open8.addEventListener('click', function(){
+    popup8.style.display = 'flex';
+})
+
+close8.addEventListener('click', function(){
+    popup8.style.display = 'none';
+})
+
 
 
 
@@ -184,6 +196,27 @@ $(document).ready(function(){
 	var bg27 = document.getElementById("bg27");
 	var bg28 = document.getElementById("bg28");
 	var bg29 = document.getElementById("bg29");
+
+	var bg61 = document.getElementById("bg61");
+	var bg62 = document.getElementById("bg62");
+	var bg63 = document.getElementById("bg63");
+	var bg64 = document.getElementById("bg64");
+	var bg65 = document.getElementById("bg65");
+	var bg66 = document.getElementById("bg66");
+
+	var bg67 = document.getElementById("bg67");
+	var bg68 = document.getElementById("bg68");
+	var bg69 = document.getElementById("bg69");
+	var bg70 = document.getElementById("bg70");
+	var bg71 = document.getElementById("bg71");
+	var bg72 = document.getElementById("bg72");
+	
+	var bg73 = document.getElementById("bg73");
+	var bg74 = document.getElementById("bg74");
+	var bg75 = document.getElementById("bg75");
+	var bg76 = document.getElementById("bg76");
+	var bg77 = document.getElementById("bg77");
+	var bg78 = document.getElementById("bg78");
 	
 
 	fullBox2.addEventListener('click', function(){
@@ -249,6 +282,89 @@ $(document).ready(function(){
 		$(fullBox2).css('visibility', 'visible');
 		swiper2.slideTo(9);
 	})
+
+
+	// 新慾望照片
+	// 61
+	bg61.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(10);
+	})
+
+	bg62.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(11);
+	})
+	bg63.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(12);
+	})
+	bg64.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(13);
+	})
+	bg65.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(14);
+	})
+	bg66.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(15);
+	})
+
+	bg67.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(16);
+	})
+
+	bg68.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(17);
+	})
+	bg69.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(18);
+	})
+	bg70.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(19);
+	})
+	bg71.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(20);
+	})
+	bg72.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(21);
+	})
+
+
+	bg73.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(22);
+	})
+	bg74.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(23);
+	})
+	bg75.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(24);
+	})
+	bg76.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(25);
+	})
+	bg77.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(26);
+	})
+	bg78.addEventListener('click', function(){
+		$(fullBox2).css('visibility', 'visible');
+		swiper2.slideTo(27);
+	})
+
+
 
 })
 
@@ -538,4 +654,102 @@ $(document).ready(function(){
     })
 
 })
+
+
+
+
+// 看大圖 8
+
+$(document).ready(function(){
+
+	var swiper8 = new Swiper('.swiper-container8', {
+		loop: true,
+		lazy: true,
+		autoplay: 1000,
+		slidesPerView: 1
+	});
+
+
+	var fullBox8 = document.getElementById("fullBox8");
+	var leftArrow8 = document.getElementById("leftArrow8");
+	var rightArrow8 = document.getElementById("rightArrow8");
+	var swiperContainer8 = document.getElementById('swiperContainer8');
+	var bg81 = document.getElementById("bg81");
+	var bg82 = document.getElementById("bg82");
+	var bg83 = document.getElementById("bg83");
+	var bg84 = document.getElementById("bg84");
+	var bg85 = document.getElementById("bg85");
+	
+	var bg86 = document.getElementById("bg86");
+	var bg87 = document.getElementById("bg87");
+	var bg88 = document.getElementById("bg88");
+	var bg89 = document.getElementById("bg89");
+	var bg90 = document.getElementById("bg90");
+	
+
+	fullBox8.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'hidden');
+	})
+
+	swiperContainer8.addEventListener('click', function(event){
+			// event.stopPropagation();
+	})
+
+	leftArrow8.addEventListener('click', function(event){
+		swiper8.slidePrev()
+			event.stopPropagation();
+
+	})
+
+	rightArrow8.addEventListener('click', function(event){
+		swiper8.slideNext()
+			event.stopPropagation();
+	})
+
+	bg81.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(1);
+	})
+	bg82.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(2);
+	})
+	bg83.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(3);
+	})
+	bg84.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(4);
+	})
+	bg85.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(5);
+	})
+	
+	bg86.addEventListener('click', function(){
+		$(fullBox8).css('visibility', 'visible');
+		swiper8.slideTo(6);
+	})
+	bg87.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(7);
+	})
+	bg88.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(8);
+	})
+	bg89.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(9);
+	})
+	bg90.addEventListener('click', function(){
+			$(fullBox8).css('visibility', 'visible');
+			swiper8.slideTo(10);
+	})
+
+
+
+})
+
 

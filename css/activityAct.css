@@ -71,6 +71,7 @@
 
 .act-right-center {
 	align-items: center;
+	justify-content: center;
 }
 
 .act-item-center {

@@ -72,6 +72,46 @@ close8.addEventListener('click', function(){
     popup8.style.display = 'none';
 })
 
+var open9 = document.getElementById("open9");
+var popup9 = document.getElementById("popup9");
+var close9 = document.getElementById("close9");
+
+open9.addEventListener('click', function(){
+    popup9.style.display = 'flex';
+})
+
+close9.addEventListener('click', function(){
+    popup9.style.display = 'none';
+})
+
+var open10 = document.getElementById("open10");
+var popup10 = document.getElementById("popup10");
+var close10 = document.getElementById("close10");
+
+open10.addEventListener('click', function(){
+    popup10.style.display = 'flex';
+})
+
+close10.addEventListener('click', function(){
+    popup10.style.display = 'none';
+})
+
+var open11 = document.getElementById("open11");
+var popup11 = document.getElementById("popup11");
+var close11 = document.getElementById("close11");
+
+open11.addEventListener('click', function(){
+	console.log(popup11)
+	console.log(popup10)
+    popup11.style.display = 'flex';
+})
+
+close11.addEventListener('click', function(){
+    popup11.style.display = 'none';
+})
+
+
+
 
 
 
@@ -752,4 +792,273 @@ $(document).ready(function(){
 
 })
 
+
+
+// 看大圖 9
+
+$(document).ready(function(){
+
+	var swiper9 = new Swiper('.swiper-container9', {
+		loop: true,
+		lazy: true,
+		autoplay: 1000,
+		slidesPerView: 1
+	});
+
+
+	var fullBox9 = document.getElementById("fullBox9");
+	var leftArrow9 = document.getElementById("leftArrow9");
+	var rightArrow9 = document.getElementById("rightArrow9");
+	var swiperContainer9 = document.getElementById('swiperContainer9');
+	var bg91 = document.getElementById("bg91");
+	var bg92 = document.getElementById("bg92");
+	var bg93 = document.getElementById("bg93");
+	var bg94 = document.getElementById("bg94");
+	var bg95 = document.getElementById("bg95");
+	
+	var bg96 = document.getElementById("bg96");
+	var bg97 = document.getElementById("bg97");
+	var bg98 = document.getElementById("bg98");
+	var bg99 = document.getElementById("bg99");
+	var bg100 = document.getElementById("bg100");
+	
+
+	fullBox9.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'hidden');
+	})
+
+	swiperContainer9.addEventListener('click', function(event){
+			// event.stopPropagation();
+	})
+
+	leftArrow9.addEventListener('click', function(event){
+		swiper9.slidePrev()
+			event.stopPropagation();
+
+	})
+
+	rightArrow9.addEventListener('click', function(event){
+		swiper9.slideNext()
+			event.stopPropagation();
+	})
+
+	bg91.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(1);
+	})
+	bg92.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(2);
+	})
+	bg93.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(3);
+	})
+	bg94.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(4);
+	})
+	bg95.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(5);
+	})
+	
+	bg96.addEventListener('click', function(){
+		$(fullBox9).css('visibility', 'visible');
+		swiper9.slideTo(6);
+	})
+	bg97.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(7);
+	})
+	bg98.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(8);
+	})
+	bg99.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(9);
+	})
+	bg100.addEventListener('click', function(){
+			$(fullBox9).css('visibility', 'visible');
+			swiper9.slideTo(10);
+	})
+
+
+
+})
+
+
+
+// 看大圖 10
+
+$(document).ready(function(){
+
+	var swiper10 = new Swiper('.swiper-container10', {
+		loop: true,
+		lazy: true,
+		autoplay: 1000,
+		slidesPerView: 1
+	});
+
+
+	var fullBox10 = document.getElementById("fullBox10");
+	var leftArrow10 = document.getElementById("leftArrow10");
+	var rightArrow10 = document.getElementById("rightArrow10");
+	var swiperContainer10 = document.getElementById('swiperContainer10');
+	var bg101 = document.getElementById("bg101");
+	var bg102 = document.getElementById("bg102");
+	var bg103 = document.getElementById("bg103");
+	var bg104 = document.getElementById("bg104");
+	var bg105 = document.getElementById("bg105");
+	
+	var bg106 = document.getElementById("bg106");
+	var bg107 = document.getElementById("bg107");
+	var bg108 = document.getElementById("bg108");
+
+	
+
+	fullBox10.addEventListener('click', function(){
+			$(fullBox10).css('visibility', 'hidden');
+	})
+
+	swiperContainer10.addEventListener('click', function(event){
+			// event.stopPropagation();
+	})
+
+	leftArrow10.addEventListener('click', function(event){
+		swiper10.slidePrev()
+			event.stopPropagation();
+
+	})
+
+	rightArrow10.addEventListener('click', function(event){
+		swiper10.slideNext()
+			event.stopPropagation();
+	})
+
+	bg101.addEventListener('click', function(){
+			$(fullBox10).css('visibility', 'visible');
+			swiper10.slideTo(1);
+	})
+	bg102.addEventListener('click', function(){
+			$(fullBox10).css('visibility', 'visible');
+			swiper10.slideTo(2);
+	})
+	bg103.addEventListener('click', function(){
+			$(fullBox10).css('visibility', 'visible');
+			swiper10.slideTo(3);
+	})
+	bg104.addEventListener('click', function(){
+			$(fullBox10).css('visibility', 'visible');
+			swiper10.slideTo(4);
+	})
+	bg105.addEventListener('click', function(){
+			$(fullBox10).css('visibility', 'visible');
+			swiper10.slideTo(5);
+	})
+	
+	bg106.addEventListener('click', function(){
+		$(fullBox10).css('visibility', 'visible');
+		swiper10.slideTo(6);
+	})
+	bg107.addEventListener('click', function(){
+			$(fullBox10).css('visibility', 'visible');
+			swiper10.slideTo(7);
+	})
+	bg108.addEventListener('click', function(){
+			$(fullBox10).css('visibility', 'visible');
+			swiper10.slideTo(8);
+	})
+
+
+
+})
+
+
+
+// 看大圖 11
+
+$(document).ready(function(){
+
+	var swiper11 = new Swiper('.swiper-container11', {
+		loop: true,
+		lazy: true,
+		autoplay: 1000,
+		slidesPerView: 1
+	});
+
+
+	var fullBox11 = document.getElementById("fullBox11");
+	var leftArrow11 = document.getElementById("leftArrow11");
+	var rightArrow11 = document.getElementById("rightArrow11");
+	var swiperContainer11 = document.getElementById('swiperContainer11');
+	var bg111 = document.getElementById("bg111");
+	var bg112 = document.getElementById("bg112");
+	var bg113 = document.getElementById("bg113");
+	var bg114 = document.getElementById("bg114");
+	var bg115 = document.getElementById("bg115");
+	
+	var bg116 = document.getElementById("bg116");
+	var bg117 = document.getElementById("bg117");
+	var bg118 = document.getElementById("bg118");
+
+	
+
+	fullBox11.addEventListener('click', function(){
+			$(fullBox11).css('visibility', 'hidden');
+	})
+
+	swiperContainer11.addEventListener('click', function(event){
+			// event.stopPropagation();
+	})
+
+	leftArrow11.addEventListener('click', function(event){
+		swiper11.slidePrev()
+			event.stopPropagation();
+
+	})
+
+	rightArrow11.addEventListener('click', function(event){
+		swiper11.slideNext()
+			event.stopPropagation();
+	})
+
+	bg111.addEventListener('click', function(){
+			$(fullBox11).css('visibility', 'visible');
+			swiper11.slideTo(1);
+	})
+	bg112.addEventListener('click', function(){
+			$(fullBox11).css('visibility', 'visible');
+			swiper11.slideTo(2);
+	})
+	bg113.addEventListener('click', function(){
+			$(fullBox11).css('visibility', 'visible');
+			swiper11.slideTo(3);
+	})
+	bg114.addEventListener('click', function(){
+			$(fullBox11).css('visibility', 'visible');
+			swiper11.slideTo(4);
+	})
+	bg115.addEventListener('click', function(){
+			$(fullBox11).css('visibility', 'visible');
+			swiper11.slideTo(5);
+	})
+	
+	bg116.addEventListener('click', function(){
+		$(fullBox11).css('visibility', 'visible');
+		swiper11.slideTo(6);
+	})
+	bg117.addEventListener('click', function(){
+			$(fullBox11).css('visibility', 'visible');
+			swiper11.slideTo(7);
+	})
+	bg118.addEventListener('click', function(){
+			$(fullBox11).css('visibility', 'visible');
+			swiper11.slideTo(8);
+	})
+
+
+
+})
 

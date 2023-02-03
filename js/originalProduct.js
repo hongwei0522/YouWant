@@ -124,6 +124,7 @@ close10.addEventListener('click', function(){
 
 
 
+
 // 看大圖 1
 
 $(document).ready(function(){

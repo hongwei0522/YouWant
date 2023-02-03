@@ -365,11 +365,16 @@ $(document).ready(function(){
 	var bg41 = document.getElementById("bg41");
 	var bg42 = document.getElementById("bg42");
 	var bg43 = document.getElementById("bg43");
-	var bg44 = document.getElementById("bg44");
+	// var bg44 = document.getElementById("bg44");
 	var bg45 = document.getElementById("bg45");
-	var bg46 = document.getElementById("bg46");
-	var bg47 = document.getElementById("bg47");
-	var bg48 = document.getElementById("bg48");
+	// var bg46 = document.getElementById("bg46");
+	// var bg47 = document.getElementById("bg47");
+	// var bg48 = document.getElementById("bg48");
+	var bg49 = document.getElementById("bg49");
+	var bg50 = document.getElementById("bg50");
+	var bg51 = document.getElementById("bg51");
+	var bg52 = document.getElementById("bg52");
+	var bg53 = document.getElementById("bg53");
 	
 
 	fullBox4.addEventListener('click', function(){
@@ -406,31 +411,35 @@ $(document).ready(function(){
 			swiper4.slideTo(3);
 	})
 
-	bg44.addEventListener('click', function(){
+	bg45.addEventListener('click', function(){
 			$(fullBox4).css('visibility', 'visible');
 			swiper4.slideTo(4);
 	})
 	
-	bg45.addEventListener('click', function(){
+	bg49.addEventListener('click', function(){
 			$(fullBox4).css('visibility', 'visible');
 			swiper4.slideTo(5);
 	})
 
-	bg46.addEventListener('click', function(){
+	bg50.addEventListener('click', function(){
 			$(fullBox4).css('visibility', 'visible');
 			swiper4.slideTo(6);
 	})
 
-	bg47.addEventListener('click', function(){
+	bg51.addEventListener('click', function(){
 		$(fullBox4).css('visibility', 'visible');
 		swiper4.slideTo(7);
-})
+	})
 
-	bg48.addEventListener('click', function(){
+	bg52.addEventListener('click', function(){
 		$(fullBox4).css('visibility', 'visible');
 		swiper4.slideTo(8);
 	})
 
+	bg53.addEventListener('click', function(){
+		$(fullBox4).css('visibility', 'visible');
+		swiper4.slideTo(9);
+	})
 })
 
 

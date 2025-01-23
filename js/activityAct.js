@@ -168,6 +168,78 @@ close14.addEventListener('click', function () {
   popup14.style.display = 'none';
 });
 
+var open15 = document.getElementById('open15');
+var popup15 = document.getElementById('popup15');
+var close15 = document.getElementById('close15');
+
+open15.addEventListener('click', function () {
+  popup15.style.display = 'flex';
+});
+
+close15.addEventListener('click', function () {
+  popup15.style.display = 'none';
+});
+
+var open16 = document.getElementById('open16');
+var popup16 = document.getElementById('popup16');
+var close16 = document.getElementById('close16');
+
+open16.addEventListener('click', function () {
+  popup16.style.display = 'flex';
+});
+
+close16.addEventListener('click', function () {
+  popup16.style.display = 'none';
+});
+
+var open17 = document.getElementById('open17');
+var popup17 = document.getElementById('popup17');
+var close17 = document.getElementById('close17');
+
+open17.addEventListener('click', function () {
+  popup17.style.display = 'flex';
+});
+
+close17.addEventListener('click', function () {
+  popup17.style.display = 'none';
+});
+
+var open18 = document.getElementById('open18');
+var popup18 = document.getElementById('popup18');
+var close18 = document.getElementById('close18');
+
+open18.addEventListener('click', function () {
+  popup18.style.display = 'flex';
+});
+
+close18.addEventListener('click', function () {
+  popup18.style.display = 'none';
+});
+
+var open19 = document.getElementById('open19');
+var popup19 = document.getElementById('popup19');
+var close19 = document.getElementById('close19');
+
+open19.addEventListener('click', function () {
+  popup19.style.display = 'flex';
+});
+
+close19.addEventListener('click', function () {
+  popup19.style.display = 'none';
+});
+
+var open20 = document.getElementById('open20');
+var popup20 = document.getElementById('popup20');
+var close20 = document.getElementById('close20');
+
+open20.addEventListener('click', function () {
+  popup20.style.display = 'flex';
+});
+
+close20.addEventListener('click', function () {
+  popup20.style.display = 'none';
+});
+
 // 看大圖 1
 
 $(document).ready(function () {
@@ -1267,5 +1339,426 @@ $(document).ready(function () {
   bg1406.addEventListener('click', function () {
     $(fullBox14).css('visibility', 'visible');
     swiper14.slideTo(6);
+  });
+});
+
+// 看大圖 15
+
+$(document).ready(function () {
+  var swiper15 = new Swiper('.swiper-container15', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox15 = document.getElementById('fullBox15');
+  var leftArrow15 = document.getElementById('leftArrow15');
+  var rightArrow15 = document.getElementById('rightArrow15');
+  var swiperContainer15 = document.getElementById('swiperContainer15');
+  var bg1501 = document.getElementById('bg1501');
+  var bg1502 = document.getElementById('bg1502');
+  var bg1503 = document.getElementById('bg1503');
+  var bg1504 = document.getElementById('bg1504');
+  var bg1505 = document.getElementById('bg1505');
+
+  fullBox15.addEventListener('click', function () {
+    $(fullBox15).css('visibility', 'hidden');
+  });
+
+  swiperContainer15.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow15.addEventListener('click', function (event) {
+    swiper15.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow15.addEventListener('click', function (event) {
+    swiper15.slideNext();
+    event.stopPropagation();
+  });
+
+  bg1501.addEventListener('click', function () {
+    $(fullBox15).css('visibility', 'visible');
+    swiper15.slideTo(1);
+  });
+
+  bg1502.addEventListener('click', function () {
+    $(fullBox15).css('visibility', 'visible');
+    swiper15.slideTo(2);
+  });
+  bg1503.addEventListener('click', function () {
+    $(fullBox15).css('visibility', 'visible');
+    swiper15.slideTo(3);
+  });
+  bg1504.addEventListener('click', function () {
+    $(fullBox15).css('visibility', 'visible');
+    swiper15.slideTo(4);
+  });
+  bg1505.addEventListener('click', function () {
+    $(fullBox15).css('visibility', 'visible');
+    swiper15.slideTo(5);
+  });
+});
+
+// 看大圖 16
+
+$(document).ready(function () {
+  var swiper16 = new Swiper('.swiper-container16', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox16 = document.getElementById('fullBox16');
+  var leftArrow16 = document.getElementById('leftArrow16');
+  var rightArrow16 = document.getElementById('rightArrow16');
+  var swiperContainer16 = document.getElementById('swiperContainer16');
+  var bg1601 = document.getElementById('bg1601');
+  var bg1602 = document.getElementById('bg1602');
+  var bg1603 = document.getElementById('bg1603');
+  var bg1604 = document.getElementById('bg1604');
+  var bg1605 = document.getElementById('bg1605');
+  var bg1606 = document.getElementById('bg1606');
+  var bg1607 = document.getElementById('bg1607');
+  var bg1608 = document.getElementById('bg1608');
+  var bg1609 = document.getElementById('bg1609');
+
+  fullBox16.addEventListener('click', function () {
+    $(fullBox16).css('visibility', 'hidden');
+  });
+
+  swiperContainer16.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow16.addEventListener('click', function (event) {
+    swiper16.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow16.addEventListener('click', function (event) {
+    swiper16.slideNext();
+    event.stopPropagation();
+  });
+
+  bg1601.addEventListener('click', function () {
+    $(fullBox16).css('visibility', 'visible');
+    swiper16.slideTo(1);
+  });
+
+  bg1602.addEventListener('click', function () {
+    $(fullBox16).css('visibility', 'visible');
+    swiper16.slideTo(2);
+  });
+  bg1603.addEventListener('click', function () {
+    $(fullBox16).css('visibility', 'visible');
+    swiper16.slideTo(3);
+  });
+  bg1604.addEventListener('click', function () {
+    $(fullBox16).css('visibility', 'visible');
+    swiper16.slideTo(4);
+  });
+  bg1605.addEventListener('click', function () {
+    $(fullBox16).css('visibility', 'visible');
+    swiper16.slideTo(5);
+  });
+  bg1606.addEventListener('click', function () {
+    $(fullBox16).css('visibility', 'visible');
+    swiper16.slideTo(6);
+  });
+  bg1607.addEventListener('click', function () {
+    $(fullBox16).css('visibility', 'visible');
+    swiper16.slideTo(7);
+  });
+  bg1608.addEventListener('click', function () {
+    $(fullBox16).css('visibility', 'visible');
+    swiper16.slideTo(8);
+  });
+  bg1609.addEventListener('click', function () {
+    $(fullBox16).css('visibility', 'visible');
+    swiper16.slideTo(9);
+  });
+});
+
+// 看大圖 17
+
+$(document).ready(function () {
+  var swiper17 = new Swiper('.swiper-container17', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox17 = document.getElementById('fullBox17');
+  var leftArrow17 = document.getElementById('leftArrow17');
+  var rightArrow17 = document.getElementById('rightArrow17');
+  var swiperContainer17 = document.getElementById('swiperContainer17');
+  var bg1701 = document.getElementById('bg1701');
+  var bg1702 = document.getElementById('bg1702');
+  var bg1703 = document.getElementById('bg1703');
+  var bg1704 = document.getElementById('bg1704');
+  var bg1705 = document.getElementById('bg1705');
+  var bg1706 = document.getElementById('bg1706');
+
+  fullBox17.addEventListener('click', function () {
+    $(fullBox17).css('visibility', 'hidden');
+  });
+
+  swiperContainer17.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow17.addEventListener('click', function (event) {
+    swiper17.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow17.addEventListener('click', function (event) {
+    swiper17.slideNext();
+    event.stopPropagation();
+  });
+
+  bg1701.addEventListener('click', function () {
+    $(fullBox17).css('visibility', 'visible');
+    swiper17.slideTo(1);
+  });
+
+  bg1702.addEventListener('click', function () {
+    $(fullBox17).css('visibility', 'visible');
+    swiper17.slideTo(2);
+  });
+  bg1703.addEventListener('click', function () {
+    $(fullBox17).css('visibility', 'visible');
+    swiper17.slideTo(3);
+  });
+  bg1704.addEventListener('click', function () {
+    $(fullBox17).css('visibility', 'visible');
+    swiper17.slideTo(4);
+  });
+  bg1705.addEventListener('click', function () {
+    $(fullBox17).css('visibility', 'visible');
+    swiper17.slideTo(5);
+  });
+  bg1706.addEventListener('click', function () {
+    $(fullBox17).css('visibility', 'visible');
+    swiper17.slideTo(6);
+  });
+});
+
+// 看大圖 18
+
+$(document).ready(function () {
+  var swiper18 = new Swiper('.swiper-container18', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox18 = document.getElementById('fullBox18');
+  var leftArrow18 = document.getElementById('leftArrow18');
+  var rightArrow18 = document.getElementById('rightArrow18');
+  var swiperContainer18 = document.getElementById('swiperContainer18');
+  var bg1801 = document.getElementById('bg1801');
+  var bg1802 = document.getElementById('bg1802');
+  var bg1803 = document.getElementById('bg1803');
+  var bg1804 = document.getElementById('bg1804');
+  var bg1805 = document.getElementById('bg1805');
+  var bg1806 = document.getElementById('bg1806');
+
+  fullBox18.addEventListener('click', function () {
+    $(fullBox18).css('visibility', 'hidden');
+  });
+
+  swiperContainer18.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow18.addEventListener('click', function (event) {
+    swiper18.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow18.addEventListener('click', function (event) {
+    swiper18.slideNext();
+    event.stopPropagation();
+  });
+
+  bg1801.addEventListener('click', function () {
+    $(fullBox18).css('visibility', 'visible');
+    swiper18.slideTo(1);
+  });
+
+  bg1802.addEventListener('click', function () {
+    $(fullBox18).css('visibility', 'visible');
+    swiper18.slideTo(2);
+  });
+  bg1803.addEventListener('click', function () {
+    $(fullBox18).css('visibility', 'visible');
+    swiper18.slideTo(3);
+  });
+  bg1804.addEventListener('click', function () {
+    $(fullBox18).css('visibility', 'visible');
+    swiper18.slideTo(4);
+  });
+  bg1805.addEventListener('click', function () {
+    $(fullBox18).css('visibility', 'visible');
+    swiper18.slideTo(5);
+  });
+  bg1806.addEventListener('click', function () {
+    $(fullBox18).css('visibility', 'visible');
+    swiper18.slideTo(6);
+  });
+});
+
+// 看大圖 19
+
+$(document).ready(function () {
+  var swiper19 = new Swiper('.swiper-container19', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox19 = document.getElementById('fullBox19');
+  var leftArrow19 = document.getElementById('leftArrow19');
+  var rightArrow19 = document.getElementById('rightArrow19');
+  var swiperContainer19 = document.getElementById('swiperContainer19');
+  var bg1901 = document.getElementById('bg1901');
+  var bg1902 = document.getElementById('bg1902');
+  var bg1903 = document.getElementById('bg1903');
+  var bg1904 = document.getElementById('bg1904');
+  var bg1905 = document.getElementById('bg1905');
+  var bg1906 = document.getElementById('bg1906');
+  var bg1907 = document.getElementById('bg1907');
+
+  fullBox19.addEventListener('click', function () {
+    $(fullBox19).css('visibility', 'hidden');
+  });
+
+  swiperContainer19.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow19.addEventListener('click', function (event) {
+    swiper19.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow19.addEventListener('click', function (event) {
+    swiper19.slideNext();
+    event.stopPropagation();
+  });
+
+  bg1901.addEventListener('click', function () {
+    $(fullBox19).css('visibility', 'visible');
+    swiper19.slideTo(1);
+  });
+
+  bg1902.addEventListener('click', function () {
+    $(fullBox19).css('visibility', 'visible');
+    swiper19.slideTo(2);
+  });
+  bg1903.addEventListener('click', function () {
+    $(fullBox19).css('visibility', 'visible');
+    swiper19.slideTo(3);
+  });
+  bg1904.addEventListener('click', function () {
+    $(fullBox19).css('visibility', 'visible');
+    swiper19.slideTo(4);
+  });
+  bg1905.addEventListener('click', function () {
+    $(fullBox19).css('visibility', 'visible');
+    swiper19.slideTo(5);
+  });
+  bg1906.addEventListener('click', function () {
+    $(fullBox19).css('visibility', 'visible');
+    swiper19.slideTo(6);
+  });
+  bg1907.addEventListener('click', function () {
+    $(fullBox19).css('visibility', 'visible');
+    swiper19.slideTo(7);
+  });
+});
+
+// 看大圖 20
+
+$(document).ready(function () {
+  var swiper20 = new Swiper('.swiper-container20', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox20 = document.getElementById('fullBox20');
+  var leftArrow20 = document.getElementById('leftArrow20');
+  var rightArrow20 = document.getElementById('rightArrow20');
+  var swiperContainer20 = document.getElementById('swiperContainer20');
+  var bg2001 = document.getElementById('bg2001');
+  var bg2002 = document.getElementById('bg2002');
+  var bg2003 = document.getElementById('bg2003');
+  var bg2004 = document.getElementById('bg2004');
+  var bg2005 = document.getElementById('bg2005');
+  var bg2006 = document.getElementById('bg2006');
+  var bg2007 = document.getElementById('bg2007');
+  var bg2008 = document.getElementById('bg2008');
+
+  fullBox20.addEventListener('click', function () {
+    $(fullBox20).css('visibility', 'hidden');
+  });
+
+  swiperContainer20.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow20.addEventListener('click', function (event) {
+    swiper20.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow20.addEventListener('click', function (event) {
+    swiper20.slideNext();
+    event.stopPropagation();
+  });
+
+  bg2001.addEventListener('click', function () {
+    $(fullBox20).css('visibility', 'visible');
+    swiper20.slideTo(1);
+  });
+
+  bg2002.addEventListener('click', function () {
+    $(fullBox20).css('visibility', 'visible');
+    swiper20.slideTo(2);
+  });
+  bg2003.addEventListener('click', function () {
+    $(fullBox20).css('visibility', 'visible');
+    swiper20.slideTo(3);
+  });
+  bg2004.addEventListener('click', function () {
+    $(fullBox20).css('visibility', 'visible');
+    swiper20.slideTo(4);
+  });
+  bg2005.addEventListener('click', function () {
+    $(fullBox20).css('visibility', 'visible');
+    swiper20.slideTo(5);
+  });
+  bg2006.addEventListener('click', function () {
+    $(fullBox20).css('visibility', 'visible');
+    swiper20.slideTo(6);
+  });
+  bg2007.addEventListener('click', function () {
+    $(fullBox20).css('visibility', 'visible');
+    swiper20.slideTo(7);
+  });
+  bg2008.addEventListener('click', function () {
+    $(fullBox20).css('visibility', 'visible');
+    swiper20.slideTo(8);
   });
 });

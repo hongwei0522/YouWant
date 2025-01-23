@@ -94,6 +94,18 @@ close8.addEventListener('click', function () {
   popup8.style.display = 'none';
 });
 
+var open9 = document.getElementById('open9');
+var popup9 = document.getElementById('popup9');
+var close9 = document.getElementById('close9');
+
+open9.addEventListener('click', function () {
+  popup9.style.display = 'flex';
+});
+
+close9.addEventListener('click', function () {
+  popup9.style.display = 'none';
+});
+
 // 看大圖 1
 
 $(document).ready(function () {
@@ -825,5 +837,93 @@ $(document).ready(function () {
   bg89.addEventListener('click', function () {
     $(fullBox8).css('visibility', 'visible');
     swiper8.slideTo(9);
+  });
+});
+
+// 看大圖 9
+
+$(document).ready(function () {
+  var swiper9 = new Swiper('.swiper-container9', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox9 = document.getElementById('fullBox9');
+  var leftArrow9 = document.getElementById('leftArrow9');
+  var rightArrow9 = document.getElementById('rightArrow9');
+  var swiperContainer9 = document.getElementById('swiperContainer9');
+  var bg91 = document.getElementById('bg91');
+  var bg92 = document.getElementById('bg92');
+  var bg93 = document.getElementById('bg93');
+  var bg94 = document.getElementById('bg94');
+  var bg95 = document.getElementById('bg95');
+  var bg96 = document.getElementById('bg96');
+  var bg97 = document.getElementById('bg97');
+  var bg98 = document.getElementById('bg98');
+  var bg99 = document.getElementById('bg99');
+
+  fullBox9.addEventListener('click', function () {
+    $(fullBox9).css('visibility', 'hidden');
+  });
+
+  swiperContainer9.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow9.addEventListener('click', function (event) {
+    swiper9.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow9.addEventListener('click', function (event) {
+    swiper9.slideNext();
+    event.stopPropagation();
+  });
+
+  bg91.addEventListener('click', function () {
+    $(fullBox9).css('visibility', 'visible');
+    swiper9.slideTo(1);
+  });
+
+  bg92.addEventListener('click', function () {
+    $(fullBox9).css('visibility', 'visible');
+    swiper9.slideTo(2);
+  });
+
+  bg93.addEventListener('click', function () {
+    $(fullBox9).css('visibility', 'visible');
+    swiper9.slideTo(3);
+  });
+
+  bg94.addEventListener('click', function () {
+    $(fullBox9).css('visibility', 'visible');
+    swiper9.slideTo(4);
+  });
+
+  bg95.addEventListener('click', function () {
+    $(fullBox9).css('visibility', 'visible');
+    swiper9.slideTo(5);
+  });
+
+  bg96.addEventListener('click', function () {
+    $(fullBox9).css('visibility', 'visible');
+    swiper9.slideTo(6);
+  });
+
+  bg97.addEventListener('click', function () {
+    $(fullBox9).css('visibility', 'visible');
+    swiper9.slideTo(7);
+  });
+
+  bg98.addEventListener('click', function () {
+    $(fullBox9).css('visibility', 'visible');
+    swiper9.slideTo(8);
+  });
+
+  bg99.addEventListener('click', function () {
+    $(fullBox9).css('visibility', 'visible');
+    swiper9.slideTo(9);
   });
 });

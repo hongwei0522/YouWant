@@ -52,6 +52,14 @@
   overflow-y: scroll;
 }
 
+.act-less-right {
+	width: 810px;
+	height: 370px;
+	display: flex;
+	flex-wrap: wrap;
+	overflow-y: scroll;
+  }
+
 .act-item {
 	width: 240px;
 	height: 180px;
@@ -347,6 +355,17 @@
 	}
 
 	.act-right a {
+		margin-bottom: 6px;
+	}
+
+	.act-less-right {
+		max-width: 400px;
+		width: 60%;
+		height: 30vh;
+		justify-content: center;
+	}
+
+	.act-less-right a {
 		margin-bottom: 6px;
 	}
 	

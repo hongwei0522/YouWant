@@ -195,6 +195,7 @@
 
 .act-popup-left-text {
 	line-height: 32px;
+	font-size: 18px;
 }
 
 .act-popup-body-head {
@@ -208,6 +209,7 @@
 
 .act-popup-right-text {
 	line-height: 32px;
+	font-size: 18px;
 }
 
 .act-popup-right-text-column {
@@ -461,7 +463,7 @@
 	}
 	
 	.act-popup-left-text {
-
+		font-size: 20px;
 	}
 	
 	.act-popup-body-head {
@@ -473,7 +475,7 @@
 	}
 	
 	.act-popup-right-text {
-
+		font-size: 20px;
 	}
 	
 	.act-popup-right-text-column {

@@ -17,7 +17,7 @@
 }
 
 .contact-left {
-	width: 50%;
+	width: 100%;
 	text-align: center;
 }
 
@@ -59,9 +59,9 @@
 	margin-bottom: 6px;
 }
 
-.contact-right {
+/* .contact-right {
 	width: 40%;
-}
+} */
 
 .map {
 
@@ -124,10 +124,10 @@
 		font-size: 16px;
 	}
 	
-	.contact-right {
+	/* .contact-right {
 		width: calc(100% - 50px);
 		margin-top: 4px;
-	}
+	} */
 	
 	.map {
 	

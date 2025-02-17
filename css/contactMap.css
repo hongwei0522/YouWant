@@ -10,6 +10,7 @@
 	height: 63vh;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	background-color: #E06941;
 	padding: 20px 0px;
 	height: 75vh;

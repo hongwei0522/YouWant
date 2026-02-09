@@ -709,3 +709,93 @@ $(document).ready(function () {
     swiper7.slideTo(9);
   });
 });
+
+// 8
+
+var open8 = document.getElementById('open8');
+var popup8 = document.getElementById('popup8');
+var close8 = document.getElementById('close8');
+
+open8.addEventListener('click', function () {
+  popup8.style.display = 'flex';
+});
+
+close8.addEventListener('click', function () {
+  popup8.style.display = 'none';
+});
+
+// 看大圖 8
+
+$(document).ready(function () {
+  var swiper8 = new Swiper('.swiper-container8', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox8 = document.getElementById('fullBox8');
+  var leftArrow8 = document.getElementById('leftArrow8');
+  var rightArrow8 = document.getElementById('rightArrow8');
+  var swiperContainer8 = document.getElementById('swiperContainer8');
+  var bg801 = document.getElementById('bg801');
+  var bg802 = document.getElementById('bg802');
+  var bg803 = document.getElementById('bg803');
+  var bg804 = document.getElementById('bg804');
+  var bg805 = document.getElementById('bg805');
+  var bg806 = document.getElementById('bg806');
+  var bg807 = document.getElementById('bg807');
+
+  fullBox8.addEventListener('click', function () {
+    $(fullBox8).css('visibility', 'hidden');
+  });
+
+  swiperContainer8.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow8.addEventListener('click', function (event) {
+    swiper8.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow8.addEventListener('click', function (event) {
+    swiper8.slideNext();
+    event.stopPropagation();
+  });
+
+  bg801.addEventListener('click', function () {
+    $(fullBox8).css('visibility', 'visible');
+    swiper8.slideTo(1);
+  });
+
+  bg802.addEventListener('click', function () {
+    $(fullBox8).css('visibility', 'visible');
+    swiper8.slideTo(2);
+  });
+
+  bg803.addEventListener('click', function () {
+    $(fullBox8).css('visibility', 'visible');
+    swiper8.slideTo(3);
+  });
+
+  bg804.addEventListener('click', function () {
+    $(fullBox8).css('visibility', 'visible');
+    swiper8.slideTo(4);
+  });
+
+  bg805.addEventListener('click', function () {
+    $(fullBox8).css('visibility', 'visible');
+    swiper8.slideTo(5);
+  });
+
+  bg806.addEventListener('click', function () {
+    $(fullBox8).css('visibility', 'visible');
+    swiper8.slideTo(6);
+  });
+
+  bg807.addEventListener('click', function () {
+    $(fullBox8).css('visibility', 'visible');
+    swiper8.slideTo(7);
+  });
+});

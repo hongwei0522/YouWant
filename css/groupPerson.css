@@ -42,18 +42,27 @@
 
 .group-2-member-box {
 	width: 240px;
-	height: auto;
+	min-width: 240px;
+	flex-shrink: 0;
 	margin: 0px 12px 80px;
 	z-index: 0;
+	overflow: hidden;
 }
 
 .group-2-img {
+	display: block;
 	width: 240px;
-	height: auto;
+	height: 300px;
+	min-width: 240px;
+	min-height: 300px;
+	max-width: 100%;
+	object-fit: cover;
+	object-position: center top;
 	border-radius: 8px;
 	margin-bottom: 10px;
 	filter: grayscale(1);
 	z-index: 0;
+	box-sizing: border-box;
 }
 
 .group-2-img:hover {

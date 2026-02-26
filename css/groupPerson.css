@@ -49,7 +49,10 @@
 
 .group-2-img {
 	width: 240px;
-	height: auto;
+	height: 320px;
+	object-fit: cover;
+	object-position: center top;
+	display: block;
 	border-radius: 8px;
 	margin-bottom: 10px;
 	filter: grayscale(1);
@@ -159,7 +162,11 @@
 	}
 	
 	.group-2-img {
-		
+		width: 100%;
+		max-width: 240px;
+		height: 280px;
+		object-fit: cover;
+		object-position: center top;
 	}
 	
 	.group-2-title {

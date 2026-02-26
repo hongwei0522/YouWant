@@ -53,18 +53,22 @@
 	display: flex;
 	align-items: center;
 	background-color: #E06941;
-	padding: 10px 0px;
+	padding: 10px 0px 10px 30px;
 	margin-bottom: 70px;
 }
 
 .index-2-img-box {
 	width: 46%;
+	min-width: 0;
 	text-align: center;
+	overflow: hidden;
 }
 
 .index-2-img {
+	max-width: 100%;
 	width: auto;
 	height: 360px;
+	object-fit: contain;
 	border-radius: 8px;
 }
 
@@ -143,6 +147,12 @@
 	margin-left: 28px;
 }
 
+/* 第一行不縮排，換行後自然縮排（依容器寬度自行斷行） */
+.index-3-text-hanging {
+	padding-left: 28px;
+	text-indent: -28px;
+}
+
 .index-3-text-line {
 	width: 3px;
 	height: 30px;
@@ -192,7 +202,7 @@
 	.index-2-inner-box {
 		flex-direction: column-reverse;
 		margin-bottom: 20px;
-		padding: 0px 0px;
+		padding: 0px 0px 0px 20px;
 	}
 
 	.index-2-img-box {
@@ -270,6 +280,11 @@
     	text-indent: 0px;
 		line-height: 1.5;
 		letter-spacing: 1px;
+	}
+
+	.index-3-text-hanging {
+		padding-left: 20px;
+		text-indent: -20px;
 	}
 
 	.index-3-text-line {

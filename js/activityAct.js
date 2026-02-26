@@ -264,6 +264,42 @@ close22.addEventListener('click', function () {
   popup22.style.display = 'none';
 });
 
+var open23 = document.getElementById('open23');
+var popup23 = document.getElementById('popup23');
+var close23 = document.getElementById('close23');
+
+open23.addEventListener('click', function () {
+  popup23.style.display = 'flex';
+});
+
+close23.addEventListener('click', function () {
+  popup23.style.display = 'none';
+});
+
+var open24 = document.getElementById('open24');
+var popup24 = document.getElementById('popup24');
+var close24 = document.getElementById('close24');
+
+open24.addEventListener('click', function () {
+  popup24.style.display = 'flex';
+});
+
+close24.addEventListener('click', function () {
+  popup24.style.display = 'none';
+});
+
+var open25 = document.getElementById('open25');
+var popup25 = document.getElementById('popup25');
+var close25 = document.getElementById('close25');
+
+open25.addEventListener('click', function () {
+  popup25.style.display = 'flex';
+});
+
+close25.addEventListener('click', function () {
+  popup25.style.display = 'none';
+});
+
 // 看大圖 1
 
 $(document).ready(function () {
@@ -1832,7 +1868,6 @@ $(document).ready(function () {
     $(fullBox21).css('visibility', 'visible');
     swiper21.slideTo(1);
   });
-
   bg2102.addEventListener('click', function () {
     $(fullBox21).css('visibility', 'visible');
     swiper21.slideTo(2);
@@ -1909,7 +1944,6 @@ $(document).ready(function () {
     $(fullBox22).css('visibility', 'visible');
     swiper22.slideTo(1);
   });
-
   bg2202.addEventListener('click', function () {
     $(fullBox22).css('visibility', 'visible');
     swiper22.slideTo(2);
@@ -1941,5 +1975,256 @@ $(document).ready(function () {
   bg2209.addEventListener('click', function () {
     $(fullBox22).css('visibility', 'visible');
     swiper22.slideTo(9);
+  });
+});
+
+// 看大圖 23
+
+$(document).ready(function () {
+  var swiper23 = new Swiper('.swiper-container23', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox23 = document.getElementById('fullBox23');
+  var leftArrow23 = document.getElementById('leftArrow23');
+  var rightArrow23 = document.getElementById('rightArrow23');
+  var swiperContainer23 = document.getElementById('swiperContainer23');
+  var bg2301 = document.getElementById('bg2301');
+  var bg2302 = document.getElementById('bg2302');
+  var bg2303 = document.getElementById('bg2303');
+  var bg2304 = document.getElementById('bg2304');
+  var bg2305 = document.getElementById('bg2305');
+  var bg2306 = document.getElementById('bg2306');
+  var bg2307 = document.getElementById('bg2307');
+  var bg2308 = document.getElementById('bg2308');
+  var bg2309 = document.getElementById('bg2309');
+
+  fullBox23.addEventListener('click', function () {
+    $(fullBox23).css('visibility', 'hidden');
+  });
+
+  swiperContainer23.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow23.addEventListener('click', function (event) {
+    swiper23.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow23.addEventListener('click', function (event) {
+    swiper23.slideNext();
+    event.stopPropagation();
+  });
+
+  bg2301.addEventListener('click', function () {
+    $(fullBox23).css('visibility', 'visible');
+    swiper23.slideTo(1);
+  });
+  bg2302.addEventListener('click', function () {
+    $(fullBox23).css('visibility', 'visible');
+    swiper23.slideTo(2);
+  });
+  bg2303.addEventListener('click', function () {
+    $(fullBox23).css('visibility', 'visible');
+    swiper23.slideTo(3);
+  });
+  bg2304.addEventListener('click', function () {
+    $(fullBox23).css('visibility', 'visible');
+    swiper23.slideTo(4);
+  });
+  bg2305.addEventListener('click', function () {
+    $(fullBox23).css('visibility', 'visible');
+    swiper23.slideTo(5);
+  });
+  bg2306.addEventListener('click', function () {
+    $(fullBox23).css('visibility', 'visible');
+    swiper23.slideTo(6);
+  });
+  bg2307.addEventListener('click', function () {
+    $(fullBox23).css('visibility', 'visible');
+    swiper23.slideTo(7);
+  });
+  bg2308.addEventListener('click', function () {
+    $(fullBox23).css('visibility', 'visible');
+    swiper23.slideTo(8);
+  });
+  bg2309.addEventListener('click', function () {
+    $(fullBox23).css('visibility', 'visible');
+    swiper23.slideTo(9);
+  });
+
+  var swiper24 = new Swiper('.swiper-container24', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox24 = document.getElementById('fullBox24');
+  var leftArrow24 = document.getElementById('leftArrow24');
+  var rightArrow24 = document.getElementById('rightArrow24');
+  var swiperContainer24 = document.getElementById('swiperContainer24');
+  var bg2401 = document.getElementById('bg2401');
+  var bg2402 = document.getElementById('bg2402');
+  var bg2403 = document.getElementById('bg2403');
+  var bg2404 = document.getElementById('bg2404');
+  var bg2405 = document.getElementById('bg2405');
+  var bg2406 = document.getElementById('bg2406');
+  var bg2407 = document.getElementById('bg2407');
+  var bg2408 = document.getElementById('bg2408');
+  var bg2409 = document.getElementById('bg2409');
+
+  fullBox24.addEventListener('click', function () {
+    $(fullBox24).css('visibility', 'hidden');
+  });
+
+  swiperContainer24.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow24.addEventListener('click', function (event) {
+    swiper24.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow24.addEventListener('click', function (event) {
+    swiper24.slideNext();
+    event.stopPropagation();
+  });
+
+  bg2401.addEventListener('click', function () {
+    $(fullBox24).css('visibility', 'visible');
+    swiper24.slideTo(1);
+  });
+  bg2402.addEventListener('click', function () {
+    $(fullBox24).css('visibility', 'visible');
+    swiper24.slideTo(2);
+  });
+  bg2403.addEventListener('click', function () {
+    $(fullBox24).css('visibility', 'visible');
+    swiper24.slideTo(3);
+  });
+  bg2404.addEventListener('click', function () {
+    $(fullBox24).css('visibility', 'visible');
+    swiper24.slideTo(4);
+  });
+  bg2405.addEventListener('click', function () {
+    $(fullBox24).css('visibility', 'visible');
+    swiper24.slideTo(5);
+  });
+  bg2406.addEventListener('click', function () {
+    $(fullBox24).css('visibility', 'visible');
+    swiper24.slideTo(6);
+  });
+  bg2407.addEventListener('click', function () {
+    $(fullBox24).css('visibility', 'visible');
+    swiper24.slideTo(7);
+  });
+  bg2408.addEventListener('click', function () {
+    $(fullBox24).css('visibility', 'visible');
+    swiper24.slideTo(8);
+  });
+  bg2409.addEventListener('click', function () {
+    $(fullBox24).css('visibility', 'visible');
+    swiper24.slideTo(9);
+  });
+});
+
+// 看大圖 25
+
+$(document).ready(function () {
+  var swiper25 = new Swiper('.swiper-container25', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox25 = document.getElementById('fullBox25');
+  var leftArrow25 = document.getElementById('leftArrow25');
+  var rightArrow25 = document.getElementById('rightArrow25');
+  var swiperContainer25 = document.getElementById('swiperContainer25');
+  var bg2501 = document.getElementById('bg2501');
+  var bg2502 = document.getElementById('bg2502');
+  var bg2503 = document.getElementById('bg2503');
+  var bg2504 = document.getElementById('bg2504');
+  var bg2505 = document.getElementById('bg2505');
+  var bg2506 = document.getElementById('bg2506');
+  var bg2507 = document.getElementById('bg2507');
+  var bg2508 = document.getElementById('bg2508');
+  var bg2509 = document.getElementById('bg2509');
+  var bg2510 = document.getElementById('bg2510');
+  var bg2511 = document.getElementById('bg2511');
+  var bg2512 = document.getElementById('bg2512');
+
+  fullBox25.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'hidden');
+  });
+
+  swiperContainer25.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow25.addEventListener('click', function (event) {
+    swiper25.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow25.addEventListener('click', function (event) {
+    swiper25.slideNext();
+    event.stopPropagation();
+  });
+
+  bg2501.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'visible');
+    swiper25.slideTo(1);
+  });
+  bg2502.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'visible');
+    swiper25.slideTo(2);
+  });
+  bg2503.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'visible');
+    swiper25.slideTo(3);
+  });
+  bg2504.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'visible');
+    swiper25.slideTo(4);
+  });
+  bg2505.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'visible');
+    swiper25.slideTo(5);
+  });
+  bg2506.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'visible');
+    swiper25.slideTo(6);
+  });
+  bg2507.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'visible');
+    swiper25.slideTo(7);
+  });
+  bg2508.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'visible');
+    swiper25.slideTo(8);
+  });
+  bg2509.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'visible');
+    swiper25.slideTo(9);
+  });
+  bg2510.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'visible');
+    swiper25.slideTo(10);
+  });
+  bg2511.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'visible');
+    swiper25.slideTo(11);
+  });
+  bg2512.addEventListener('click', function () {
+    $(fullBox25).css('visibility', 'visible');
+    swiper25.slideTo(12);
   });
 });

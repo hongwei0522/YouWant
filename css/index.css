@@ -170,6 +170,9 @@
 
 	.index-1-inner-box {
 		height: 75vh;
+		padding-left: 16px;
+		padding-right: 16px;
+		box-sizing: border-box;
 	}
 
 	.index-1-inside-box {
@@ -192,8 +195,8 @@
 	}
 
 	.index-1-img {
-		max-width: 600px;
-		width: calc(100% - 50px);
+		max-width: 100%;
+		width: 100%;
 		height: auto;
 	}
 
@@ -202,7 +205,8 @@
 	.index-2-inner-box {
 		flex-direction: column-reverse;
 		margin-bottom: 20px;
-		padding: 0px 0px 0px 20px;
+		padding: 0 16px;
+		box-sizing: border-box;
 	}
 
 	.index-2-img-box {
@@ -211,13 +215,13 @@
 	}
 
 	.index-2-img {
-		max-width: 600px;
-		width: calc(100% - 50px);
+		max-width: 100%;
+		width: 100%;
 		height: auto;
 	}
 
 	.index-2-text-box {
-		width: calc(100% - 50px);
+		width: 100%;
 	}
 
 	.index-2-text {
@@ -231,7 +235,8 @@
 	/* 年表 */
 
 	.index-3-inner-box {
-		padding: 0px 0px;
+		padding: 0 16px;
+		box-sizing: border-box;
 	}
 
 	.index-3-text-box {

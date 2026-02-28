@@ -488,12 +488,28 @@
 	
 	
 	.act-popup-two {
-	
+		width: 100%;
+		max-width: 100%;
+		overflow: hidden;
 	}
 	
 	.act-popup-iframe-box {
-		width: 290px;
-		height: 163px;
+		width: 100%;
+		max-width: 100%;
+		position: relative;
+		height: 0;
+		padding-bottom: 56.25%;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+	
+	.act-popup-iframe-box iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: 100% !important;
+		max-width: 100%;
 	}
 	
 	.act-popup-three {
